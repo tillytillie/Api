@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body, html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+    .container{
+      margin: 10px;
+      text-align: center;
+  }
+  p:nth-child(1){
+      color: red;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  p:nth-child(2), 
+  p:nth-child(3),
+  p:nth-child(4){
+      color: teal;
+  }
+  span {
+      color: grey;
+  }
+ 
+  table {
+      background-color: rgba(233, 236, 216, 0.678);
+      border: 10px dashed white;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+  }
+  
+  thead th {
+      color: teal;
+      padding: 2px;
+  }
+  tbody{
+      background-color: white;
+      padding: 10px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  td{
+      padding: 20px;
+  }
+  @media (max-width:768px) {
+      table{
+          width: 100%;
+      }
+      
+  }
